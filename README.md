@@ -161,4 +161,11 @@ Future Vision:
 
 .Healthcare professionals who provided domain expertise and validation perspectives
 
-![HealthGuardian AI Workflow](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=HealthGuardian+AI+Workflow+Diagram)    
+[ÍCONE DE USUÁRIO] → [CAIXA DE TEXTO: "Descreva seus sintomas"] 
+    ↓
+[ÍCONE DE IA/ROBÔ] → [PROCESSAMENTO NLP + MACHINE LEARNING]
+    ↓
+[SAÍDA EM 3 PARTES]:
+1. 🟡 POSSÍVEIS CONDIÇÕES: Gripe, Resfriado, Alergia
+2. 🟢 NÍVEL DE URGÊNCIA: Baixo - Consulta em 48h
+3. 🔵 RECOMENDAÇÕES: Repouso, Hidratação, Monitorar sintomas
