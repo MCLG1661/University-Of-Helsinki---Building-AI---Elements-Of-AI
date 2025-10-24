@@ -5,9 +5,29 @@
 
 Final Project For The Building AI Course
 
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+
 ## 🎯 Summary
 
-HealthGuardian AI is an initial medical triage system powered by artificial intelligence that analyzes patient-reported symptoms and suggests potential conditions, urgency levels, and preliminary guidance.
+HealthGuardian AI is an intelligent medical triage system that uses machine learning to analyze patient-reported symptoms and provide preliminary assessments. The system suggests possible conditions, urgency levels, and initial recommendations, helping users make informed decisions about seeking medical care while reducing unnecessary healthcare visits.
+
+## 🚀 Demonstração
+
+![HealthGuardian AI Workflow](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=HealthGuardian+AI+-+Symptom+Analysis+Workflow)
+
+## ⚡ Como Executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/healthguardian-ai.git
+cd healthguardian-ai
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Execute a aplicação
+streamlit run app.py
 
 ## 🏥 Background & Problem Statement
 
