@@ -61,6 +61,18 @@ Potential growth areas:
 - Medical dataset providers
 - Open-source AI libraries
 
+## 📁 Estrutura do Projeto
+
+healthguardian-ai/
+│
+├── app.py
+├── requirements.txt
+├── data/
+│   └── symptom_conditions.csv
+├── models/
+│   └── triage_model.pkl
+└── README.md
+
 ## ⚠️ Important Notice
 
 This project is developed for **educational purposes only**. The system is not certified for medical use and should not replace professional healthcare consultation. Always seek advice from qualified medical professionals for health-related decisions. 
