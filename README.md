@@ -1,4 +1,6 @@
-![HealthGuardian AI Workflow](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=HealthGuardian+AI+Workflow+Diagram)
+![HealthGuardian AI](https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80)
+
+*Imagem por [Mufid Majnun](https://unsplash.com/@mufidpwt) no Unsplash*
 
 # HealthGuardian AI - Medical Triage System
 
