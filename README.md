@@ -10,159 +10,56 @@ Final Project For The Building AI Course
 
 ## 🎯 Summary
 
-HealthGuardian AI is an intelligent medical triage system that uses machine learning to analyze patient-reported symptoms and provide preliminary assessments. The system suggests possible conditions, urgency levels, and initial recommendations, helping users make informed decisions about seeking medical care while reducing unnecessary healthcare visits.
+HealthGuardian AI is an intelligent medical triage system that uses machine learning to analyze patient symptoms and provide preliminary medical assessments. The system processes natural language descriptions of symptoms, classifies potential conditions, determines urgency levels, and offers initial recommendations. Built with Python and Streamlit, it demonstrates practical applications of NLP and classification algorithms in healthcare technology.
 
 ## 🏥 Background & Problem Statement
 
-The Problem
-Long waiting times in emergency rooms
-
-Limited access to medical professionals in remote or underserved areas
-
-Difficulty accessing healthcare professionals in remote areas
-
-Inaccurate self-diagnosis through unreliable online sources
-
-Overburdened healthcare systems with unnecessary visits for non-urgent conditions
-
-Statistics & Scope
-In Brazil, 70% of emergency room visits are for non-urgent conditions (Brazilian Medical Council data).
-
-Personal Motivation
-Comes from family experiences with delayed diagnoses and witnessing healthcare accessibility challenges in rural communities. I believe technology can bridge gaps in healthcare access while maintaining quality and reliability.
-
-Importance
-Reduces overload on healthcare systems
-
-Empowers patients with reliable information
-
-Improves healthcare resource allocation
+This project addresses the problem of healthcare accessibility and emergency room overcrowding by providing an initial symptom assessment tool. Many people seek emergency care for non-urgent conditions due to lack of preliminary guidance. My motivation comes from observing healthcare challenges in underserved communities and the potential of AI to bridge accessibility gaps.
 
 ## How is it used?
-Users interact with HealthGuardian AI through a mobile app or web platform when they experience symptoms and need initial guidance. The process works as follows:
 
-User describes their symptoms through text or voice input
+Users interact with the system through a web interface where they describe their symptoms in natural language. The AI processes the text, analyzes symptom patterns, and returns:
+- Possible medical conditions
+- Urgency level (low/medium/high)
+- Preliminary recommendations
+- Guidance on when to seek medical care
 
-The system analyzes the symptoms using NLP algorithms
-
-AI models assess potential conditions and urgency level
-
-User receives preliminary guidance and recommendations
-
-System suggests whether to seek immediate care, schedule an appointment, or try self-care
-
-Environment and Context:
-
-Used at home, work, or anywhere symptoms occur
-
-Available 24/7 for immediate symptom assessment
-
-Particularly valuable in areas with limited healthcare access
-
-Supports multiple languages and regional variations
-
-Target Users:
-
-General population seeking initial medical guidance
-
-Healthcare professionals as a decision support tool
-
-Telemedicine platforms for preliminary patient screening
-
-Healthcare administrators for resource optimization
+The system is designed for initial assessment before consulting healthcare professionals.
 
 ## Data sources and AI methods
 
-Data Source	                  Description	                    Usage
+**Data Sources:**
+- Synthetic medical symptom data
+- Public health datasets
+- Medical literature patterns
 
-MIMIC-IV	                    De-identified medical records	  Training data for symptom-condition relationships
-UCI ML Repository	            Medical datasets	              Model training and validation
-PubMed	                      Medical literature	            Symptom pattern recognition and validation
-Brazilian Public Health Data	Local healthcare statistics	    Regional adaptation and validation
-
-## AI Methods and Techniques:
-
-text
-
-# Example of symptom classification model
-def predict_condition(symptoms):
-    # Feature extraction from symptom descriptions
-    symptoms_vector = vectorize_symptoms(symptoms)
-    
-    # Multi-class classification for potential conditions
-    predictions = model.predict_proba([symptoms_vector])
-    
-    # Urgency level assessment
-    urgency = assess_urgency(predictions)
-    
-    return {
-        'possible_conditions': predictions,
-        'urgency_level': urgency,
-        'recommendations': generate_guidance(predictions, urgency)
-    }
+**AI Methods:**
+- Natural Language Processing (NLP)
+- TF-IDF Vectorization
+- Random Forest Classification
+- Multi-class prediction models
 
 ## Challenges
 
-.Does NOT replace professional medical diagnosis - always recommends consulting healthcare providers for definitive diagnosis
+This project does not:
+- Replace professional medical diagnosis
+- Handle emergency situations
+- Process medical images or lab results
+- Provide treatment prescriptions
 
-.Limited to symptom-based assessment - cannot perform physical examinations or laboratory tests
+Limitations include dataset size, language constraints, and the need for clinical validation.
 
-.Data bias challenges - underrepresentation of rare conditions and diverse populations in training data
+## What next?
 
-.Liability and responsibility - clear disclaimers needed about system limitations
-
-.Cultural and regional variations in symptom expression and healthcare-seeking behavior
-
-.Privacy concerns with sensitive health information - requires robust data protection
-
-.Digital divide - may not be accessible to populations without internet or smartphone access
-
-## What next ?
-
-Expansion Opportunities:
-
-.Integration with wearable devices for real-time health monitoring
-
-.Development of specialized modules for chronic disease management
-
-.Partnership with public healthcare systems for broader impact
-
-.Multimodal input support (images, voice, sensor data)
-
-Required Skills and Support:
-
-.Clinical validation expertise from medical professionals
-
-.Advanced NLP for better symptom understanding
-
-.Mobile development for wider accessibility
-
-.Data privacy and security specialization
-
-.Partnerships with healthcare institutions for real-world testing
-
-Future Vision:
-
-.AI-powered early outbreak detection system
-
-.Personalized preventive healthcare recommendations
-
-.Integration with electronic health records
-
-.Global adaptation with local medical guidelines
+Potential growth areas:
+- Integration with electronic health records
+- Multi-language support
+- Mobile application development
+- Clinical trial validation
+- Specialized modules for chronic conditions
 
 ## Acknowledgments
 
-.MIMIC-IV Database for providing de-identified medical data under MIT License
-
-.UCI Machine Learning Repository for publicly available medical datasets
-
-.Research papers from Mayo Clinic on digital triage systems that inspired the approach
-
-.Brazilian Medical Council statistics that highlighted the problem scope
-
-.Open-source libraries including Scikit-learn, TensorFlow, and NLTK that enable the technical implementation
-
-.Healthcare professionals who provided domain expertise and validation perspectives
-
-
+- Scikit-learn and Streamlit communities
+- Medical dataset providers
+- Open-source AI libraries
