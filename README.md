@@ -48,8 +48,6 @@ User receives preliminary guidance and recommendations
 
 System suggests whether to seek immediate care, schedule an appointment, or try self-care
 
-<img src="https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=HealthGuardian+AI+Interface" width="400">
-
 Environment and Context:
 
 Used at home, work, or anywhere symptoms occur
