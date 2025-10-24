@@ -12,19 +12,6 @@ Final Project For The Building AI Course
 
 HealthGuardian AI is an intelligent medical triage system that uses machine learning to analyze patient-reported symptoms and provide preliminary assessments. The system suggests possible conditions, urgency levels, and initial recommendations, helping users make informed decisions about seeking medical care while reducing unnecessary healthcare visits.
 
-## ⚡ Como Executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/healthguardian-ai.git
-cd healthguardian-ai
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Execute a aplicação
-streamlit run app.py
-
 ## 🏥 Background & Problem Statement
 
 The Problem
