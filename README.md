@@ -1,88 +1,23 @@
-![HealthGuardian AI](https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80)
+# Movie Recommendation System
 
-# HealthGuardian AI - Medical Triage System
-“Building AI course project”
+## Summary  
+This project implements a content-based movie recommendation system using Python and machine learning techniques. The system analyzes movie features and synopses to suggest similar films to users, applying natural language processing (NLP) and cosine similarity metrics. This solution addresses the information overload problem in entertainment platforms by providing personalized movie discoveries.
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+## Background  
+With the vast amount of movies available across streaming platforms, users often struggle to find content that matches their preferences. This recommendation system solves the problem of content discovery by:
 
-## Summary
+* Helping users find movies similar to ones they already enjoy
+* Reducing time spent browsing through irrelevant options
+* Providing personalized suggestions based on content analysis
+* Demonstrating practical application of AI in entertainment
 
-This project implements a movie recommendation system using the k-Nearest Neighbors (k-NN) algorithm. The system suggests movies based on user preferences by analyzing features like genre, rating, and year. It demonstrates practical application of machine learning concepts learned in the Building AI course, including data preprocessing, similarity calculation, and model evaluation. HealthGuardian AI is an intelligent medical triage system that uses machine learning to analyze patient symptoms and provide preliminary medical assessments. The system processes natural language descriptions of symptoms, classifies potential conditions, determines urgency levels, and offers initial recommendations. Built with Python and Streamlit, it demonstrates practical applications of NLP and classification algorithms in healthcare technology.
+The algorithm is particularly useful for movie enthusiasts, streaming services, and anyone looking to expand their viewing options with tailored recommendations.
 
-## 🏥 Background & Problem Statement
+## How is it used?  
+The system can be deployed in various scenarios:
 
-This project addresses the problem of healthcare accessibility and emergency room overcrowding by providing an initial symptom assessment tool. Many people seek emergency care for non-urgent conditions due to lack of preliminary guidance. My motivation comes from observing healthcare challenges in underserved communities and the potential of AI to bridge accessibility gaps.
-
-##How is it used?
-
-Users interact with the system through a web interface where they describe their symptoms in natural language. The AI processes the text, analyzes symptom patterns, and returns:
-- Possible medical conditions
-- Urgency level (low/medium/high)
-- Preliminary recommendations
-- Guidance on when to seek medical care
-
-The system is designed for initial assessment before consulting healthcare professionals.
-
-## Data sources and AI methods
-
-**Data Sources:**
-- Synthetic medical symptom data
-- Public health datasets
-- Medical literature patterns
-
-**AI Methods:**
-- Natural Language Processing (NLP)
-- TF-IDF Vectorization
-- Random Forest Classification
-- Multi-class prediction models
-
-## Challenges
-
-This project does not:
-- Replace professional medical diagnosis
-- Handle emergency situations
-- Process medical images or lab results
-- Provide treatment prescriptions
-
-Limitations include dataset size, language constraints, and the need for clinical validation.
-
-## What next?
-
-Potential growth areas:
-- Integration with electronic health records
-- Multi-language support
-- Mobile application development
-- Clinical trial validation
-- Specialized modules for chronic conditions
-
-## Acknowledgments
-
-- Scikit-learn and Streamlit communities
-- Medical dataset providers
-- Open-source AI libraries
-
-## 📁 Estrutura do Projeto
-
-healthguardian-ai/
-│
-├── app.py
-├── requirements.txt
-├── data/
-│   └── symptom_conditions.csv
-├── models/
-│   └── triage_model.pkl
-└── README.md
-
-## ⚠️ Important Notice
-
-This project is developed for **educational purposes only**. The system is not certified for medical use and should not replace professional healthcare consultation. Always seek advice from qualified medical professionals for health-related decisions. 
-
-## 📬 Contato
-
-Projeto desenvolvido por Marcus  
-📧 Email: [mclguedes@gmail.com]  
-📱 LinkedIn: [https://www.linkedin.com/in/marcusguedes]
-
-
+**For individual users:**
+```python
+# Example usage
+recommendations = get_similar_movies("The Matrix", num_recommendations=5)
  
