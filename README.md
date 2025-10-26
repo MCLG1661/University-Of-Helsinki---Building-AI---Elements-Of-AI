@@ -6,9 +6,11 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 
-## 🎯 Summary
+## Summary
 
-HealthGuardian AI is an intelligent medical triage system that uses machine learning to analyze patient symptoms and provide preliminary medical assessments. The system processes natural language descriptions of symptoms, classifies potential conditions, determines urgency levels, and offers initial recommendations. Built with Python and Streamlit, it demonstrates practical applications of NLP and classification algorithms in healthcare technology.
+## Summary
+
+This project implements a movie recommendation system using the k-Nearest Neighbors (k-NN) algorithm. The system suggests movies based on user preferences by analyzing features like genre, rating, and year. It demonstrates practical application of machine learning concepts learned in the Building AI course, including data preprocessing, similarity calculation, and model evaluation. HealthGuardian AI is an intelligent medical triage system that uses machine learning to analyze patient symptoms and provide preliminary medical assessments. The system processes natural language descriptions of symptoms, classifies potential conditions, determines urgency levels, and offers initial recommendations. Built with Python and Streamlit, it demonstrates practical applications of NLP and classification algorithms in healthcare technology.
 
 ## 🏥 Background & Problem Statement
 
