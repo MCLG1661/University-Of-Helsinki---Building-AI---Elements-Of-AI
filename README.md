@@ -16,13 +16,11 @@ The algorithm is particularly useful for movie enthusiasts, streaming services, 
 ## How is it used?  
 The system can be deployed in various scenarios:
 
-**For individual users:**
-```python
 # Example usage
 recommendations = get_similar_movies("The Matrix", num_recommendations=5)
  
 ## ⚠️ Important Notice
-This project is developed for **educational purposes only**. The system is not certified for medical use and should not replace professional healthcare consultation. Always seek advice from qualified medical professionals for health-related decisions. 
+This project is developed for **educational purposes only**. The system is not certified for medical use and should not replace professional healthcare consultation. Always seek advice from qualified medical professionals for health-related decisions.
 
 ## 📬 Contact
 📧 Email: [mclguedes@gmail.com]  
